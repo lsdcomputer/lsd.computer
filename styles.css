@@ -3,12 +3,6 @@
     padding: 0;
 }
 
-body {
-    background-repeat: repeat;
-    background-image: url("background_1.png");
-}
-
-
 
 .column {
     margin-top: 15px;
@@ -26,7 +20,14 @@ body {
     align-items: center;
     justify-content: space-evenly;
     min-height: 100vh;
-
+    background: url(rainbow.png) repeat;
+    left: 0;
+    min-height: 100%;
+    overflow-x: hidden;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
 }
 
 /* Clear floats after the columns */
